@@ -19,8 +19,8 @@ def reverse_num(num):
 # test
 num1 = 12345
 reversed_num1 = reverse_num(num1)
-print("Reversed integer:", reversed_num1)
+print("Reversed integer:", reversed_num1)  #expected 54321
 
 num2 = -6789
 reversed_num2 = reverse_num(-6789)
-print("Reversed integer:", reversed_num2)
+print("Reversed integer:", reversed_num2)  #expected -9876
